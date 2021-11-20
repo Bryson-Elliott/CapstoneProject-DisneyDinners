@@ -1,0 +1,25 @@
+{
+  "name": "capstoneproject",
+  "version": "1.0.0",
+  "description": "Idea: An application that can be used for a date night or just a night where you are looking for entertainment. Users are able to figure out what movie to watch and get a themed meal to go along with the movie.",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bryson-Elliott/CapstoneProject-DisneyDinners.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bryson-Elliott/CapstoneProject-DisneyDinners/issues"
+  },
+  "homepage": "https://github.com/Bryson-Elliott/CapstoneProject-DisneyDinners#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
