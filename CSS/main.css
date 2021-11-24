@@ -1,0 +1,204 @@
+/* * { 
+    background-color: rgb(177, 176, 176);
+    position: absolute;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+
+#bannerimg {
+    background-color: whitesmoke;
+    /* background: linear-gradient(to bottom right, rgb(4, 4, 83), rgb(0, 0, 0)); */
+    width: 100%;
+    height: 20vh;
+    margin-top: 0px;
+    border: 1px solid black;
+}
+
+/* #background {
+    background-image: linear-gradient(90 deg, rgb(4, 4, 138), black);
+    position: absolute;
+} */
+
+.contentbox {
+    /* background-color: rgb(221, 157, 231); */
+    background: linear-gradient(to bottom right, rgb(209, 153, 12), rgb(219, 147, 176));
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    position: absolute;
+    overflow: hidden;
+
+}
+
+.moviebox {
+    background-color: whitesmoke;
+    /* background: linear-gradient(to top, rgb(4, 4, 83), rgb(0, 0, 0)); */
+    margin: 0;
+    width: 30%;
+    height: 30vh;
+    margin-top: 30vh;
+    margin-left: 10vw;
+    position: absolute;
+    border: 1px solid black;
+}
+
+#moviebtn {
+    margin: auto;
+    display: block;
+    align-content: center;
+    margin-top: 35%;
+    text-transform: uppercase;
+}
+
+.recipebox {
+    background-color: whitesmoke;
+    /* background: linear-gradient(to bottom, rgb(4, 4, 83), rgb(0, 0, 0)); */
+    margin: 0;
+    width: 30%;
+    height: 30vh;
+    margin-top: 30vh;
+    margin-left: 60vw;
+    position: absolute;
+    border: 1px solid black;
+}
+
+#dinnerbtn {
+    margin: auto;
+    display: block;
+    align-content: center;
+    margin-top: 35%;
+    position: absolute;
+    margin-left: 20%;
+    text-transform: uppercase;
+}
+
+#TDbtn {
+    margin: auto;
+    display: block;
+    align-content: center;
+    margin-top: 35%;
+    position: absolute;
+    margin-left: 50%;
+    text-transform: uppercase;
+}
+
+#loginbtn {
+    margin: auto;
+    display: block;
+    margin-left: 95%;
+    margin-right: 1%;
+    padding: 5px;
+    position: absolute;
+    margin-top: 0.5%;
+}
+
+#registerbtn {
+    margin: auto;
+    display: block;
+    margin-left: 1%;
+    margin-top: 0.5%;
+    position: absolute;
+    padding: 5px;
+}
+
+#title {
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 33%;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+    max-width: 100%;
+  }
+  
+  a {
+    flex: 1;
+    background-color: black;
+    color: #fff;
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+  }
+  
+  a:hover,
+  a:focus {
+    background-color: #fff;
+    color: #333;
+  }
+
+  .btn {
+    width: 4%;
+    border: none;
+    outline: none;
+    background: #c38b8b;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+  }
+  
+  .btn::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(
+      124deg,
+      #ff2400,
+      #e81d1d,
+      #e8b71d,
+      #e3e81d,
+      #1de840,
+      #1ddde8,
+      #2b1de8,
+      #dd00f3,
+      #dd00f3
+    );
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    animation: move 20s linear infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  .btn:hover::before {
+    opacity: 1;
+  }
+  
+  .btn::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+  
+  @keyframes move {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
