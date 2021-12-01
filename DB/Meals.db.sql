@@ -21,6 +21,6 @@
 --     wasabi + pickled ginger"
 -- )
 
-SELECT * FROM meals  
+SELECT meals_name FROM meals  
 ORDER BY RAND ( )  
 LIMIT 1  
