@@ -8,12 +8,12 @@ html {
 }
 
 #bannerimg {
-    background-color: whitesmoke;
+    background:linear-gradient(to top right, rgb(89, 158, 222), rgb(209, 153, 12));
     /* background: linear-gradient(to bottom right, rgb(4, 4, 83), rgb(0, 0, 0)); */
     width: 100%;
     height: 20vh;
     margin-top: 0px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* #background {
@@ -45,11 +45,13 @@ html {
 }
 
 #moviebtn {
+    background: linear-gradient(to left, rgb(228, 228, 228), rgb(47,101,190));
     margin: auto;
     display: block;
     align-content: center;
     margin-top: 35%;
     text-transform: uppercase;
+
 }
 
 .recipebox {
@@ -65,26 +67,17 @@ html {
 }
 
 #dinnerbtn {
+    background: linear-gradient(to left, rgb(228, 228, 228), rgb(47,101,190));
     margin: auto;
     display: block;
     align-content: center;
     margin-top: 35%;
     position: absolute;
-    margin-left: 20%;
+    margin-left: 40%;
     text-transform: uppercase;
 }
 
-#TDbtn {
-    margin: auto;
-    display: block;
-    align-content: center;
-    margin-top: 35%;
-    position: absolute;
-    margin-left: 50%;
-    text-transform: uppercase;
-}
-
-#loginbtn {
+/* #loginbtn {
     margin: auto;
     display: block;
     margin-left: 95%;
@@ -92,7 +85,7 @@ html {
     padding: 5px;
     position: absolute;
     margin-top: 0.5%;
-}
+} */
 
 #registerbtn {
     margin: auto;
@@ -136,7 +129,7 @@ nav {
   }
 
   .btn {
-    width: 4%;
+    width: 25%;
     border: none;
     outline: none;
     background: #c38b8b;
@@ -202,3 +195,25 @@ nav {
       background-position: 0 0;
     }
   }
+
+.input {
+  margin-left: 40rem;
+  margin-top: .5rem;
+}
+
+#button {
+  width: 5%;
+}
+
+#h1 {
+  margin-left: 40rem;
+}
+
+#htmlbox {
+  background: whitesmoke;
+  border: 1px solid black;
+  height: 50%;
+  width: 40%;
+  margin-left: 30rem;
+  margin-top: 5rem;
+}
