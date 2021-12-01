@@ -111,7 +111,7 @@ nav {
     max-width: 100%;
   }
   
-  a {
+  #a {
     flex: 1;
     background-color: black;
     color: #fff;
@@ -122,8 +122,8 @@ nav {
     transition: all 0.5s ease-out;
   }
   
-  a:hover,
-  a:focus {
+  #a:hover,
+  #a:focus {
     background-color: #fff;
     color: #333;
   }
